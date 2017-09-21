@@ -14,6 +14,9 @@
 		3BECC0FB1F732FA7000E7486 /* Tablas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3BECC0F91F732FA7000E7486 /* Tablas.xcdatamodeld */; };
 		3BECC0FD1F732FA7000E7486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BECC0FC1F732FA7000E7486 /* Assets.xcassets */; };
 		3BECC1001F732FA7000E7486 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BECC0FE1F732FA7000E7486 /* LaunchScreen.storyboard */; };
+		3BECC10D1F7336BC000E7486 /* CellMainTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BECC10B1F7336BC000E7486 /* CellMainTable.m */; };
+		3BECC10E1F7336BC000E7486 /* CellMainTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BECC10C1F7336BC000E7486 /* CellMainTable.xib */; };
+		3BECC1111F73395F000E7486 /* Imagenes in Resources */ = {isa = PBXBuildFile; fileRef = 3BECC1101F73395F000E7486 /* Imagenes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,10 @@
 		3BECC0FC1F732FA7000E7486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BECC0FF1F732FA7000E7486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3BECC1011F732FA7000E7486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BECC10A1F7336BC000E7486 /* CellMainTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellMainTable.h; sourceTree = "<group>"; };
+		3BECC10B1F7336BC000E7486 /* CellMainTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellMainTable.m; sourceTree = "<group>"; };
+		3BECC10C1F7336BC000E7486 /* CellMainTable.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellMainTable.xib; sourceTree = "<group>"; };
+		3BECC1101F73395F000E7486 /* Imagenes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Imagenes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +68,8 @@
 			isa = PBXGroup;
 			children = (
 				3BECC1071F732FCE000E7486 /* Main */,
+				3BECC1101F73395F000E7486 /* Imagenes */,
+				3BECC1091F733666000E7486 /* Cells */,
 				3BECC1081F732FD7000E7486 /* Controllers */,
 				3BECC0F61F732FA7000E7486 /* Main.storyboard */,
 				3BECC0FC1F732FA7000E7486 /* Assets.xcassets */,
@@ -96,6 +105,16 @@
 				3BECC0F41F732FA7000E7486 /* Home.m */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		3BECC1091F733666000E7486 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3BECC10A1F7336BC000E7486 /* CellMainTable.h */,
+				3BECC10B1F7336BC000E7486 /* CellMainTable.m */,
+				3BECC10C1F7336BC000E7486 /* CellMainTable.xib */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +178,8 @@
 				3BECC1001F732FA7000E7486 /* LaunchScreen.storyboard in Resources */,
 				3BECC0FD1F732FA7000E7486 /* Assets.xcassets in Resources */,
 				3BECC0F81F732FA7000E7486 /* Main.storyboard in Resources */,
+				3BECC10E1F7336BC000E7486 /* CellMainTable.xib in Resources */,
+				3BECC1111F73395F000E7486 /* Imagenes in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +194,7 @@
 				3BECC0F21F732FA7000E7486 /* AppDelegate.m in Sources */,
 				3BECC0FB1F732FA7000E7486 /* Tablas.xcdatamodeld in Sources */,
 				3BECC0EF1F732FA7000E7486 /* main.m in Sources */,
+				3BECC10D1F7336BC000E7486 /* CellMainTable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
